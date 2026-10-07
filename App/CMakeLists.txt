@@ -8,3 +8,5 @@ target_link_libraries (MyApplication PRIVATE RootFinder)
 target_include_directories (MyApplication PRIVATE ../FunctionAnalysis_SDK/include)
 target_link_directories (MyApplication PRIVATE ../FunctionAnalysis_SDK/lib)
 target_link_libraries (MyApplication PRIVATE FunctionAnalysis)
+
+add_executable (MyApplicationExplicit main_explicit.cpp)
